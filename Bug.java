@@ -40,6 +40,7 @@ public class Bug extends Actor
             
             if(score==14){
                 getWorld().showText("YOU WIN !",500,200);
+                Greenfoot.stop();
                 
 }
   }          
