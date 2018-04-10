@@ -26,6 +26,7 @@ public class Snakes extends Actor
             removeTouching(Bug.class);     
       if(score!=14){
       getWorld().showText("YOU LOSE !",600,200);
+      Greenfoot.stop();
 }
 }
 }
