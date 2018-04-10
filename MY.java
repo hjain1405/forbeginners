@@ -82,4 +82,8 @@ public class MY extends World
         Snakes snakes5 = new Snakes();
         addObject(snakes5,822,317);
     }
+    public void stopped(){
+        Greenfoot.delay(100);
+        Greenfoot.setWorld(new MY());
+    }
 }
